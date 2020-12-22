@@ -103,14 +103,9 @@ namespace Calc.Models
 
                 int removeIndex = lessIndexOperation - leftValue.Length;
                 expression = expression.Remove(removeIndex, leftValue.Length + rightValue.Length + 1);
-<<<<<<< HEAD
                 
                 double result;
                 
-=======
-                double result;
-
->>>>>>> 90d652e9e1d71ab61fe438a546c11dc102c6e1e7
                 switch (operation)
                 {
                     case '-':
